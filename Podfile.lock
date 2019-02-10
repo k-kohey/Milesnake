@@ -1,0 +1,95 @@
+PODS:
+  - Jelly (2.1.0)
+  - LicensePlist (2.0.0)
+  - Navigation-stack (3.0.0)
+  - ReactorKit (1.2.1):
+    - RxSwift (>= 4.0.0)
+  - Realm (3.12.0):
+    - Realm/Headers (= 3.12.0)
+  - Realm/Headers (3.12.0)
+  - RealmSwift (3.12.0):
+    - Realm (= 3.12.0)
+  - ReusableKit (2.1.0):
+    - ReusableKit/Core (= 2.1.0)
+  - ReusableKit/Core (2.1.0)
+  - ReusableKit/RxSwift (2.1.0):
+    - ReusableKit/Core
+    - RxCocoa (>= 4.0.0)
+    - RxSwift (>= 4.0.0)
+  - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxOptional (3.6.2):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxRealm (0.7.6):
+    - RealmSwift (~> 3.0)
+    - RxSwift (~> 4.0)
+  - RxRealmDataSources (0.2.10):
+    - RealmSwift (~> 3.10)
+    - RxCocoa (~> 4.0)
+    - RxRealm (~> 0.7.6)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+  - SnapKit (4.2.0)
+  - SwiftGen (6.0.2)
+  - Then (2.4.0)
+
+DEPENDENCIES:
+  - Jelly (~> 2.0)
+  - LicensePlist
+  - Navigation-stack
+  - ReactorKit
+  - RealmSwift
+  - ReusableKit
+  - ReusableKit/RxSwift
+  - RxCocoa
+  - RxOptional
+  - RxRealm
+  - RxRealmDataSources
+  - RxSwift
+  - SnapKit
+  - SwiftGen
+  - Then
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Jelly
+    - LicensePlist
+    - Navigation-stack
+    - ReactorKit
+    - Realm
+    - RealmSwift
+    - ReusableKit
+    - RxAtomic
+    - RxCocoa
+    - RxOptional
+    - RxRealm
+    - RxRealmDataSources
+    - RxSwift
+    - SnapKit
+    - SwiftGen
+    - Then
+
+SPEC CHECKSUMS:
+  Jelly: ead99e14abf51130949ea14b2ad9bbfd9047ecbf
+  LicensePlist: 558c95c739171b96896d38fa5502f3721aada13c
+  Navigation-stack: dbe34ea07b9f43e7ece931b81632dcd5540cfda6
+  ReactorKit: 8be57f0527ad1ac2963cd5c338274a46a01e57a3
+  Realm: cdaef23c4ddb36ab1ddffed23f5a7f3332fc5585
+  RealmSwift: 5576324033f0aa5ef1e0a839a3da2281dff47a7f
+  ReusableKit: d0b040de03b293288b0ca27a78602691d3346d9b
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxOptional: 80426a0ddbd092573e4c482d8cc13302078c4d5e
+  RxRealm: 5379eddd74f8d617ca7681d1f8d144af25b432b0
+  RxRealmDataSources: 89b61c0d3edf7769da2a6bf4dcf317bc713394db
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftGen: e5b047067aa84082826a0c4f1c4c2ddc95bcf74c
+  Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
+
+PODFILE CHECKSUM: 7d4a4d4f74c263a83618c9f98043b94dc82fca6a
+
+COCOAPODS: 1.5.3

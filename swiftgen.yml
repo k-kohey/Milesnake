@@ -1,0 +1,5 @@
+xcassets:
+  paths:
+   - Milesnake/Assets.xcassets
+  templateName: swift4
+  output: CodeGenerated/assets-images.swift

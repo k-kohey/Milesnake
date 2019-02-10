@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B5CC91021D9B33C009BB5D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CC90F21D9B33C009BB5D4 /* AppDelegate.swift */; };
+		1B5CC91721D9B340009BB5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5CC91621D9B340009BB5D4 /* Assets.xcassets */; };
+		1B5CC91A21D9B340009BB5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5CC91821D9B340009BB5D4 /* LaunchScreen.storyboard */; };
+		1B5CC92521D9B340009BB5D4 /* MilesnakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CC92421D9B340009BB5D4 /* MilesnakeTests.swift */; };
+		1B5CC93521D9BA3F009BB5D4 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CC93421D9BA3F009BB5D4 /* Color.swift */; };
+		1B5CC93721D9BA4D009BB5D4 /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CC93621D9BA4D009BB5D4 /* TextStyle.swift */; };
+		1B5CC93921D9BE3B009BB5D4 /* MileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CC93821D9BE3B009BB5D4 /* MileView.swift */; };
+		1B5CC93C21D9C9FA009BB5D4 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CC93B21D9C9FA009BB5D4 /* UIView+.swift */; };
+		1B5CC93E21D9CA9F009BB5D4 /* MiletTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CC93D21D9CA9F009BB5D4 /* MiletTableViewCell.swift */; };
+		1B5CC94121D9D6C0009BB5D4 /* MileListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CC94021D9D6C0009BB5D4 /* MileListViewController.swift */; };
+		1B5CC94421D9E2D1009BB5D4 /* PlusMileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CC94321D9E2D1009BB5D4 /* PlusMileTableViewCell.swift */; };
+		1B5CC94B21DA7AFA009BB5D4 /* SingleLineSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CC94A21DA7AFA009BB5D4 /* SingleLineSectionView.swift */; };
+		1B5CC94E21DA8FF5009BB5D4 /* Mile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CC94D21DA8FF5009BB5D4 /* Mile.swift */; };
+		1B5CC95121DAC30A009BB5D4 /* TargetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CC95021DAC30A009BB5D4 /* TargetListViewController.swift */; };
+		1B5CC95321DAC6D2009BB5D4 /* assets-images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CC95221DAC6D2009BB5D4 /* assets-images.swift */; };
+		1B5CC95821DAE275009BB5D4 /* NewTargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CC95721DAE275009BB5D4 /* NewTargetViewController.swift */; };
+		1B5CC95A21DB6BDB009BB5D4 /* NewTargetReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CC95921DB6BDB009BB5D4 /* NewTargetReactor.swift */; };
+		1B9B14BD21E74ADB002E412D /* BaseMileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9B14BC21E74ADB002E412D /* BaseMileTableViewController.swift */; };
+		1BD2107F21DF559200EC87A0 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BD2107E21DF559200EC87A0 /* Settings.bundle */; };
+		2CE67C25C97113166A217AC4 /* Pods_MilesnakeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9E19A810FAFCFC7D6D5EE3 /* Pods_MilesnakeTests.framework */; };
+		BED7DCBD8D897863ED5A78FF /* Pods_Milesnake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 290346DF864E5D05B96B9B18 /* Pods_Milesnake.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B5CC92121D9B340009BB5D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B5CC90421D9B33B009BB5D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B5CC90B21D9B33C009BB5D4;
+			remoteInfo = Milesnake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B5CC90C21D9B33C009BB5D4 /* Milesnake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Milesnake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5CC90F21D9B33C009BB5D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B5CC91621D9B340009BB5D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B5CC91921D9B340009BB5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B5CC91B21D9B340009BB5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B5CC92021D9B340009BB5D4 /* MilesnakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilesnakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5CC92421D9B340009BB5D4 /* MilesnakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilesnakeTests.swift; sourceTree = "<group>"; };
+		1B5CC92621D9B340009BB5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B5CC93421D9BA3F009BB5D4 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		1B5CC93621D9BA4D009BB5D4 /* TextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
+		1B5CC93821D9BE3B009BB5D4 /* MileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MileView.swift; sourceTree = "<group>"; };
+		1B5CC93B21D9C9FA009BB5D4 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		1B5CC93D21D9CA9F009BB5D4 /* MiletTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiletTableViewCell.swift; sourceTree = "<group>"; };
+		1B5CC94021D9D6C0009BB5D4 /* MileListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MileListViewController.swift; sourceTree = "<group>"; };
+		1B5CC94321D9E2D1009BB5D4 /* PlusMileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusMileTableViewCell.swift; sourceTree = "<group>"; };
+		1B5CC94A21DA7AFA009BB5D4 /* SingleLineSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLineSectionView.swift; sourceTree = "<group>"; };
+		1B5CC94D21DA8FF5009BB5D4 /* Mile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mile.swift; sourceTree = "<group>"; };
+		1B5CC95021DAC30A009BB5D4 /* TargetListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetListViewController.swift; sourceTree = "<group>"; };
+		1B5CC95221DAC6D2009BB5D4 /* assets-images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "assets-images.swift"; path = "CodeGenerated/assets-images.swift"; sourceTree = SOURCE_ROOT; };
+		1B5CC95721DAE275009BB5D4 /* NewTargetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTargetViewController.swift; sourceTree = "<group>"; };
+		1B5CC95921DB6BDB009BB5D4 /* NewTargetReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTargetReactor.swift; sourceTree = "<group>"; };
+		1B9B14BC21E74ADB002E412D /* BaseMileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMileTableViewController.swift; sourceTree = "<group>"; };
+		1BD2107E21DF559200EC87A0 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		2638657BE78C42E7C96BB972 /* Pods-Milesnake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milesnake.release.xcconfig"; path = "Pods/Target Support Files/Pods-Milesnake/Pods-Milesnake.release.xcconfig"; sourceTree = "<group>"; };
+		290346DF864E5D05B96B9B18 /* Pods_Milesnake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Milesnake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		643148F3F6CC4934A05AF731 /* Pods-Milesnake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Milesnake.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Milesnake/Pods-Milesnake.debug.xcconfig"; sourceTree = "<group>"; };
+		B510231358C6293D091A5BD9 /* Pods-MilesnakeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilesnakeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MilesnakeTests/Pods-MilesnakeTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9440987E0161CF293A9C9DA /* Pods-MilesnakeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilesnakeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MilesnakeTests/Pods-MilesnakeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD9E19A810FAFCFC7D6D5EE3 /* Pods_MilesnakeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MilesnakeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B5CC90921D9B33C009BB5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED7DCBD8D897863ED5A78FF /* Pods_Milesnake.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5CC91D21D9B340009BB5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE67C25C97113166A217AC4 /* Pods_MilesnakeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B5CC90321D9B33B009BB5D4 = {
+			isa = PBXGroup;
+			children = (
+				1B5CC90E21D9B33C009BB5D4 /* Milesnake */,
+				1B5CC92321D9B340009BB5D4 /* MilesnakeTests */,
+				1B5CC90D21D9B33C009BB5D4 /* Products */,
+				9BB7BE84B6D09973892E183E /* Pods */,
+				FAC77717B8D9B461EE8279D3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B5CC90D21D9B33C009BB5D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B5CC90C21D9B33C009BB5D4 /* Milesnake.app */,
+				1B5CC92021D9B340009BB5D4 /* MilesnakeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B5CC90E21D9B33C009BB5D4 /* Milesnake */ = {
+			isa = PBXGroup;
+			children = (
+				1BD2107E21DF559200EC87A0 /* Settings.bundle */,
+				1B5CC94221D9E16F009BB5D4 /* BusinessLogic */,
+				1B5CC93A21D9C9E9009BB5D4 /* extensions */,
+				1B5CC93021D9B9F5009BB5D4 /* UI */,
+				1B5CC90F21D9B33C009BB5D4 /* AppDelegate.swift */,
+				1B5CC91621D9B340009BB5D4 /* Assets.xcassets */,
+				1B5CC91821D9B340009BB5D4 /* LaunchScreen.storyboard */,
+				1B5CC91B21D9B340009BB5D4 /* Info.plist */,
+			);
+			path = Milesnake;
+			sourceTree = "<group>";
+		};
+		1B5CC92321D9B340009BB5D4 /* MilesnakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B5CC92421D9B340009BB5D4 /* MilesnakeTests.swift */,
+				1B5CC92621D9B340009BB5D4 /* Info.plist */,
+			);
+			path = MilesnakeTests;
+			sourceTree = "<group>";
+		};
+		1B5CC93021D9B9F5009BB5D4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1B5CC93321D9BA20009BB5D4 /* Page */,
+				1B5CC93221D9BA01009BB5D4 /* Molecules */,
+				1B5CC93121D9B9FB009BB5D4 /* Atom */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1B5CC93121D9B9FB009BB5D4 /* Atom */ = {
+			isa = PBXGroup;
+			children = (
+				1B5CC93421D9BA3F009BB5D4 /* Color.swift */,
+				1B5CC93621D9BA4D009BB5D4 /* TextStyle.swift */,
+			);
+			path = Atom;
+			sourceTree = "<group>";
+		};
+		1B5CC93221D9BA01009BB5D4 /* Molecules */ = {
+			isa = PBXGroup;
+			children = (
+				1B5CC93821D9BE3B009BB5D4 /* MileView.swift */,
+				1B5CC93D21D9CA9F009BB5D4 /* MiletTableViewCell.swift */,
+				1B5CC94321D9E2D1009BB5D4 /* PlusMileTableViewCell.swift */,
+				1B5CC94A21DA7AFA009BB5D4 /* SingleLineSectionView.swift */,
+			);
+			path = Molecules;
+			sourceTree = "<group>";
+		};
+		1B5CC93321D9BA20009BB5D4 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				1B5CC95421DAD2EE009BB5D4 /* NewTarget */,
+				1B5CC94F21DAC2A3009BB5D4 /* Target */,
+				1B5CC93F21D9D68D009BB5D4 /* Mile */,
+				1B9B14BC21E74ADB002E412D /* BaseMileTableViewController.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		1B5CC93A21D9C9E9009BB5D4 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1B5CC93B21D9C9FA009BB5D4 /* UIView+.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		1B5CC93F21D9D68D009BB5D4 /* Mile */ = {
+			isa = PBXGroup;
+			children = (
+				1B5CC94021D9D6C0009BB5D4 /* MileListViewController.swift */,
+			);
+			path = Mile;
+			sourceTree = "<group>";
+		};
+		1B5CC94221D9E16F009BB5D4 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				1B5CC95221DAC6D2009BB5D4 /* assets-images.swift */,
+				1B5CC94C21DA8F52009BB5D4 /* Store */,
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		1B5CC94C21DA8F52009BB5D4 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				1B5CC94D21DA8FF5009BB5D4 /* Mile.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		1B5CC94F21DAC2A3009BB5D4 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				1B5CC95021DAC30A009BB5D4 /* TargetListViewController.swift */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+		1B5CC95421DAD2EE009BB5D4 /* NewTarget */ = {
+			isa = PBXGroup;
+			children = (
+				1B5CC95721DAE275009BB5D4 /* NewTargetViewController.swift */,
+				1B5CC95921DB6BDB009BB5D4 /* NewTargetReactor.swift */,
+			);
+			path = NewTarget;
+			sourceTree = "<group>";
+		};
+		9BB7BE84B6D09973892E183E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				643148F3F6CC4934A05AF731 /* Pods-Milesnake.debug.xcconfig */,
+				2638657BE78C42E7C96BB972 /* Pods-Milesnake.release.xcconfig */,
+				B9440987E0161CF293A9C9DA /* Pods-MilesnakeTests.debug.xcconfig */,
+				B510231358C6293D091A5BD9 /* Pods-MilesnakeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAC77717B8D9B461EE8279D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				290346DF864E5D05B96B9B18 /* Pods_Milesnake.framework */,
+				FD9E19A810FAFCFC7D6D5EE3 /* Pods_MilesnakeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B5CC90B21D9B33C009BB5D4 /* Milesnake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5CC92921D9B340009BB5D4 /* Build configuration list for PBXNativeTarget "Milesnake" */;
+			buildPhases = (
+				D51C27405AC7C1423813E069 /* [CP] Check Pods Manifest.lock */,
+				1B5CC90821D9B33C009BB5D4 /* Sources */,
+				1B5CC90921D9B33C009BB5D4 /* Frameworks */,
+				1B5CC90A21D9B33C009BB5D4 /* Resources */,
+				0F30D510A10E928EC1756081 /* [CP] Embed Pods Frameworks */,
+				1B5CC92F21D9B468009BB5D4 /* ShellScript */,
+				1BD2107D21DF527C00EC87A0 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Milesnake;
+			productName = Milesnake;
+			productReference = 1B5CC90C21D9B33C009BB5D4 /* Milesnake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B5CC91F21D9B340009BB5D4 /* MilesnakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5CC92C21D9B340009BB5D4 /* Build configuration list for PBXNativeTarget "MilesnakeTests" */;
+			buildPhases = (
+				DC2ADADEBACDCF188659137E /* [CP] Check Pods Manifest.lock */,
+				1B5CC91C21D9B340009BB5D4 /* Sources */,
+				1B5CC91D21D9B340009BB5D4 /* Frameworks */,
+				1B5CC91E21D9B340009BB5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B5CC92221D9B340009BB5D4 /* PBXTargetDependency */,
+			);
+			name = MilesnakeTests;
+			productName = MilesnakeTests;
+			productReference = 1B5CC92021D9B340009BB5D4 /* MilesnakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B5CC90421D9B33B009BB5D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "kawaguchi kohei";
+				TargetAttributes = {
+					1B5CC90B21D9B33C009BB5D4 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					1B5CC91F21D9B340009BB5D4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 1B5CC90B21D9B33C009BB5D4;
+					};
+				};
+			};
+			buildConfigurationList = 1B5CC90721D9B33B009BB5D4 /* Build configuration list for PBXProject "Milesnake" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B5CC90321D9B33B009BB5D4;
+			productRefGroup = 1B5CC90D21D9B33C009BB5D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B5CC90B21D9B33C009BB5D4 /* Milesnake */,
+				1B5CC91F21D9B340009BB5D4 /* MilesnakeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B5CC90A21D9B33C009BB5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5CC91A21D9B340009BB5D4 /* LaunchScreen.storyboard in Resources */,
+				1BD2107F21DF559200EC87A0 /* Settings.bundle in Resources */,
+				1B5CC91721D9B340009BB5D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5CC91E21D9B340009BB5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F30D510A10E928EC1756081 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Milesnake/Pods-Milesnake-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Jelly/Jelly.framework",
+				"${BUILT_PRODUCTS_DIR}/Navigation-stack/Navigation_stack.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactorKit/ReactorKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReusableKit/ReusableKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxOptional/RxOptional.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealmDataSources/RxRealmDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Jelly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Navigation_stack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactorKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReusableKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxOptional.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealmDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Milesnake/Pods-Milesnake-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B5CC92F21D9B468009BB5D4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n$PODS_ROOT/SwiftGen/bin/swiftgen\n";
+		};
+		1BD2107D21DF527C00EC87A0 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ $CONFIGURATION = \"Debug\" ]; then\n${PODS_ROOT}/LicensePlist/license-plist --output-path $PRODUCT_NAME/Settings.bundle\nfi\n";
+		};
+		D51C27405AC7C1423813E069 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Milesnake-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC2ADADEBACDCF188659137E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MilesnakeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B5CC90821D9B33C009BB5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5CC95321DAC6D2009BB5D4 /* assets-images.swift in Sources */,
+				1B5CC93E21D9CA9F009BB5D4 /* MiletTableViewCell.swift in Sources */,
+				1B5CC95821DAE275009BB5D4 /* NewTargetViewController.swift in Sources */,
+				1B5CC94121D9D6C0009BB5D4 /* MileListViewController.swift in Sources */,
+				1B5CC95A21DB6BDB009BB5D4 /* NewTargetReactor.swift in Sources */,
+				1B5CC93C21D9C9FA009BB5D4 /* UIView+.swift in Sources */,
+				1B5CC93921D9BE3B009BB5D4 /* MileView.swift in Sources */,
+				1B5CC94B21DA7AFA009BB5D4 /* SingleLineSectionView.swift in Sources */,
+				1B5CC94421D9E2D1009BB5D4 /* PlusMileTableViewCell.swift in Sources */,
+				1B5CC94E21DA8FF5009BB5D4 /* Mile.swift in Sources */,
+				1B9B14BD21E74ADB002E412D /* BaseMileTableViewController.swift in Sources */,
+				1B5CC95121DAC30A009BB5D4 /* TargetListViewController.swift in Sources */,
+				1B5CC93721D9BA4D009BB5D4 /* TextStyle.swift in Sources */,
+				1B5CC91021D9B33C009BB5D4 /* AppDelegate.swift in Sources */,
+				1B5CC93521D9BA3F009BB5D4 /* Color.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5CC91C21D9B340009BB5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5CC92521D9B340009BB5D4 /* MilesnakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B5CC92221D9B340009BB5D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B5CC90B21D9B33C009BB5D4 /* Milesnake */;
+			targetProxy = 1B5CC92121D9B340009BB5D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B5CC91821D9B340009BB5D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B5CC91921D9B340009BB5D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B5CC92721D9B340009BB5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B5CC92821D9B340009BB5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B5CC92A21D9B340009BB5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 643148F3F6CC4934A05AF731 /* Pods-Milesnake.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9NRS56RXP;
+				INFOPLIST_FILE = Milesnake/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kawaguchiKohei.Milesnake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1B5CC92B21D9B340009BB5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2638657BE78C42E7C96BB972 /* Pods-Milesnake.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9NRS56RXP;
+				INFOPLIST_FILE = Milesnake/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kawaguchiKohei.Milesnake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1B5CC92D21D9B340009BB5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9440987E0161CF293A9C9DA /* Pods-MilesnakeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9NRS56RXP;
+				INFOPLIST_FILE = MilesnakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kawaguchiKohei.MilesnakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Milesnake.app/Milesnake";
+			};
+			name = Debug;
+		};
+		1B5CC92E21D9B340009BB5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B510231358C6293D091A5BD9 /* Pods-MilesnakeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9NRS56RXP;
+				INFOPLIST_FILE = MilesnakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kawaguchiKohei.MilesnakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Milesnake.app/Milesnake";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B5CC90721D9B33B009BB5D4 /* Build configuration list for PBXProject "Milesnake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5CC92721D9B340009BB5D4 /* Debug */,
+				1B5CC92821D9B340009BB5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B5CC92921D9B340009BB5D4 /* Build configuration list for PBXNativeTarget "Milesnake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5CC92A21D9B340009BB5D4 /* Debug */,
+				1B5CC92B21D9B340009BB5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B5CC92C21D9B340009BB5D4 /* Build configuration list for PBXNativeTarget "MilesnakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5CC92D21D9B340009BB5D4 /* Debug */,
+				1B5CC92E21D9B340009BB5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B5CC90421D9B33B009BB5D4 /* Project object */;
+}
